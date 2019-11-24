@@ -10,7 +10,7 @@ PREV_REPLY_MESSAGE = {}
 
 
 USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me.Else gaand mara dunga bsdk "
-USER_BOT_NO_WARN = "`kon ho bhaiya aur kya chaiya tumko`"
+USER_BOT_NO_WARN = "`malik offline ha jab aayenga to bata dunga kisi gandu ka message aaya tha. `"
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
